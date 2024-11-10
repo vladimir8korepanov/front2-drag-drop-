@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="styles.css" />
+        <title>Drag & Drop</title>
+    </head>
+    <body>  
+        <div>
+            <div class="row">
+                <div class="col-header start">1 слот</div>                
+                <div class="col-header progress">2 слот</div>
+                <div class="col-header done">3 слот</div>
+            </div>
+
+            <div class="row">
+                <div class="placeholder" id="slot1">
+                    <div class="item" id="item1" draggable="true">Перетащи меня I</div>
+                    <div class="item" id="item2" draggable="true">Перетащи меня II</div>
+                    <div class="item" id="item3" draggable="true">Перетащи меня III</div>
+                </div>
+                <div class="placeholder" id="slot2"></div>
+                <div class="placeholder" id="slot3"></div>
+            </div>    
+        </div>
+        <script src="app.js"></script>
+    </body>
+</html>
